@@ -23,3 +23,4 @@ const teamSchema = new Schema({
 
 
 module.exports = mongoose.model("Teams", teamSchema)
+

@@ -1,8 +1,5 @@
 const notFound = (req, res) => {
-    res.status(400).res.json({
-        success: false,
-        msg: "Route does not exist"
-    })
-}
+  res.status(400).send(`Route not found try <a href = '/api/v1/teams'>FOOTBAL API</a>`);
+};
 
 module.exports = notFound;

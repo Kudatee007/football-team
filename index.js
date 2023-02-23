@@ -9,9 +9,9 @@ const notFound = require("./middleware/notFound");
 const cors = require("cors");
 
 
-app.use(cors())
-app.use(express.json())
-app.use(teamRouter)
+app.use(cors());
+app.use(express.json());
+app.use(teamRouter);
 
 
 // ERROR ROUTR
